@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+
+img{max-width: 100%;}
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+
+.vertical-space, .vertical-space1, .vertical-space2, .vertical-space3, .vertical-space4, .vertical-space5 { display:block; width:100%; margin:0; clear:both; border:0 none; height:20px; }
+.vertical-space2 { height:40px; }
+.vertical-space3 { height:60px; }
+.vertical-space4 { height:80px; }
+.vertical-space5 { height:100px; }
+
+
+
+.modal-body .panel-body{padding:0;}
+
+.modal div.dataTables_paginate ul.pagination{font-size:10px;}
+
+.modal table.dataTable thead > tr > th{padding-left:10px; padding-right:10px; font-size:13px; }
+.modal .dataTable tr td{font-size:12px}
+                
+.banner{height: auto; width: 100%; margin:0 0 20px 0; background:#000;}
+
+.launch-banner{text-align: center; height: auto; width: 100%;}
+.launch-btn{width: 12%; height: 50px; font-size: 20px;}
+
+.question-div{width:100%; height: auto; padding:10px;}
+
+.question-div label{color:#333; display:block; font-size: 15px; padding:5px; background: #fff;}
+
+.question-div input[type="radio"]{margin: 0 10px 0 10px; }
+
+.form{background:fcfcfc; padding:15px 10px; border-radius: 5px;}
+.form select{width:50%;}
+
+.panel-title a{display:inline-block; width: 100%;  height: 100%;}
+
+@media (max-width: 768px) {
+                
+                .banner{height: auto;}
+
+}
+
+@media (min-width:768px){
+                
+                .form-horizontal .control-label {
+    padding-top: 0!important;
+    margin-bottom: 0;
+                                text-align: right;}
+}
+
+
+    @media screen and (min-width: 768px) {
+       #mapModal .modal-dialog {
+          width: 700px; /* New width for default modal */
+        }
+      #mapModal  .modal-sm {
+          width: 350px; /* New width for small modal */
+        }
+    }
+    @media screen and (min-width: 992px) {
+       #mapModal .modal-lg {
+          width: 950px; /* New width for large modal */
+        }
+    }
